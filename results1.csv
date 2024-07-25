@@ -1,0 +1,4 @@
+resampling_technique;hyperparameters;accuracy;precision;recall;f1-score
+SMOTE;{'batch_size': 16, 'bilstm_neuron': 32, 'dropout_rate': 0.1, 'lr': 0.01, 'neuron': 32, 'optimizer': 'adam'};85.22%;83.26%;88.16%;85.64%
+ADASYN;{'batch_size': 16, 'bilstm_neuron': 32, 'dropout_rate': 0.1, 'lr': 0.01, 'neuron': 32, 'optimizer': 'adam'};84.01%;83.46%;84.57%;84.01%
+RandomOverSampler;{'batch_size': 16, 'bilstm_neuron': 32, 'dropout_rate': 0.1, 'lr': 0.01, 'neuron': 32, 'optimizer': 'adam'};95.29%;91.55%;99.79%;95.49%
